@@ -14,7 +14,7 @@ const Welcome = () => {
 
   return (
     <div>
-      <h1>Welcome to the app!</h1>
+      <h1 className='text-red-700'>Welcome to the app!</h1>
       <button onClick={handleClickLogin}>Login</button>
       <button onClick={handleClickRegister}>Register</button>
     </div>
